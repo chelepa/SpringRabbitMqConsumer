@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: teste
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+jsa:
+  rabbitmq:
+    queue: jsa.queue
+    
+server:
+  port: 8082
